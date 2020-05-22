@@ -6,8 +6,9 @@
     android:layout_height="match_parent">
     
     <EditText
-        android:id="@+id/name"
-        android:layout_width="match_parent"        android:hint="Username"
+        android:id="@+id/имя"
+        android:layout_width="match_parent"
+        android:hint="Имя пользователя"
         android:layout_height="wrap_content"/>
     <EditText
         android:id="@+id/email"
@@ -15,16 +16,16 @@
         android:hint="Email"
         android:layout_height="wrap_content"/>
     <EditText
-        android:id="@+id/password_register"
+        android:id="@+id/пароль"
         android:layout_width="match_parent"
-        android:hint="Password"
+        android:hint="Пароль"
         android:inputType="textPassword"
         android:layout_height="wrap_content"/>
     <Button
         android:id="@+id/save"
         android:layout_width="wrap_content"
         android:layout_gravity="center_horizontal"
-        android:text="save"
+        android:text="Зарегестрироваться"
         android:layout_height="wrap_content"/>
 
 

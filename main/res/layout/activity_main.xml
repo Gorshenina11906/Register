@@ -16,12 +16,12 @@
         <Button
             android:id="@+id/registration"
             android:layout_width="wrap_content"
-            android:text="Register"
+            android:text="Авторизоваться"
             android:layout_height="wrap_content"/>
         <Button
             android:id="@+id/login"
             android:layout_width="wrap_content"
-            android:text="Login"
+            android:text="Войти"
             android:layout_height="wrap_content"/>
     </LinearLayout>
     <include
